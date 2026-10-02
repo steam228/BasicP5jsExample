@@ -6,3 +6,7 @@ function setup() {
 function draw() {
   circle(mouseX, mouseY, 60);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
